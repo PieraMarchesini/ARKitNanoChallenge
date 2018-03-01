@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65676C6920488E7500CD2981 /* normals-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C5B20488E7500CD2981 /* normals-metal.png */; };
+		65676C6A20488E7500CD2981 /* spec-wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C5C20488E7500CD2981 /* spec-wine.png */; };
+		65676C6B20488E7500CD2981 /* normals-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C5D20488E7500CD2981 /* normals-handle.png */; };
+		65676C6C20488E7500CD2981 /* UVHandle.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C5E20488E7500CD2981 /* UVHandle.png */; };
+		65676C6D20488E7500CD2981 /* spec-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C5F20488E7500CD2981 /* spec-metal.png */; };
+		65676C6E20488E7500CD2981 /* BarrelUV.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6020488E7500CD2981 /* BarrelUV.png */; };
+		65676C6F20488E7500CD2981 /* normals-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6120488E7500CD2981 /* normals-wood.png */; };
+		65676C7020488E7500CD2981 /* normals-wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6220488E7500CD2981 /* normals-wine.png */; };
+		65676C7120488E7500CD2981 /* UVBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6320488E7500CD2981 /* UVBase.png */; };
+		65676C7220488E7500CD2981 /* normals-base.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6420488E7500CD2981 /* normals-base.png */; };
+		65676C7320488E7500CD2981 /* spec-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6520488E7500CD2981 /* spec-handle.png */; };
+		65676C7420488E7500CD2981 /* UVFabric.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6620488E7500CD2981 /* UVFabric.png */; };
+		65676C7520488E7500CD2981 /* spec-base.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6720488E7500CD2981 /* spec-base.png */; };
+		65676C7620488E7500CD2981 /* normals-fabric.png in Resources */ = {isa = PBXBuildFile; fileRef = 65676C6820488E7500CD2981 /* normals-fabric.png */; };
+		65676C782048914500CD2981 /* Barrel.scn in Resources */ = {isa = PBXBuildFile; fileRef = 65676C772048909600CD2981 /* Barrel.scn */; };
+		65E510412046C63E000FE29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E510402046C63E000FE29E /* AppDelegate.swift */; };
+		65E510432046C63E000FE29E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E510422046C63E000FE29E /* art.scnassets */; };
+		65E510452046C63E000FE29E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E510442046C63E000FE29E /* ViewController.swift */; };
+		65E510482046C63E000FE29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E510462046C63E000FE29E /* Main.storyboard */; };
+		65E5104A2046C63E000FE29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E510492046C63E000FE29E /* Assets.xcassets */; };
+		65E5104D2046C63E000FE29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E5104B2046C63E000FE29E /* LaunchScreen.storyboard */; };
+		65E510582046C63E000FE29E /* KindaBeerPongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E510572046C63E000FE29E /* KindaBeerPongTests.swift */; };
+		65E510632046C63E000FE29E /* KindaBeerPongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E510622046C63E000FE29E /* KindaBeerPongUITests.swift */; };
+		65E510712046C895000FE29E /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E510702046C895000FE29E /* VirtualPlane.swift */; };
+		65E51073204735A3000FE29E /* ARCupSessionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E51072204735A3000FE29E /* ARCupSessionStatus.swift */; };
+		65E5107D2048721C000FE29E /* cup.scn in Resources */ = {isa = PBXBuildFile; fileRef = 65E5107C2048707D000FE29E /* cup.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65E510542046C63E000FE29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E510352046C63E000FE29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E5103C2046C63E000FE29E;
+			remoteInfo = KindaBeerPong;
+		};
+		65E5105F2046C63E000FE29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E510352046C63E000FE29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E5103C2046C63E000FE29E;
+			remoteInfo = KindaBeerPong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65676C5B20488E7500CD2981 /* normals-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normals-metal.png"; sourceTree = "<group>"; };
+		65676C5C20488E7500CD2981 /* spec-wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spec-wine.png"; sourceTree = "<group>"; };
+		65676C5D20488E7500CD2981 /* normals-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normals-handle.png"; sourceTree = "<group>"; };
+		65676C5E20488E7500CD2981 /* UVHandle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UVHandle.png; sourceTree = "<group>"; };
+		65676C5F20488E7500CD2981 /* spec-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spec-metal.png"; sourceTree = "<group>"; };
+		65676C6020488E7500CD2981 /* BarrelUV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarrelUV.png; sourceTree = "<group>"; };
+		65676C6120488E7500CD2981 /* normals-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normals-wood.png"; sourceTree = "<group>"; };
+		65676C6220488E7500CD2981 /* normals-wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normals-wine.png"; sourceTree = "<group>"; };
+		65676C6320488E7500CD2981 /* UVBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UVBase.png; sourceTree = "<group>"; };
+		65676C6420488E7500CD2981 /* normals-base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normals-base.png"; sourceTree = "<group>"; };
+		65676C6520488E7500CD2981 /* spec-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spec-handle.png"; sourceTree = "<group>"; };
+		65676C6620488E7500CD2981 /* UVFabric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UVFabric.png; sourceTree = "<group>"; };
+		65676C6720488E7500CD2981 /* spec-base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spec-base.png"; sourceTree = "<group>"; };
+		65676C6820488E7500CD2981 /* normals-fabric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normals-fabric.png"; sourceTree = "<group>"; };
+		65676C772048909600CD2981 /* Barrel.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Barrel.scn; sourceTree = "<group>"; };
+		65E5103D2046C63E000FE29E /* KindaBeerPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindaBeerPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E510402046C63E000FE29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65E510422046C63E000FE29E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		65E510442046C63E000FE29E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65E510472046C63E000FE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65E510492046C63E000FE29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E5104C2046C63E000FE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65E5104E2046C63E000FE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E510532046C63E000FE29E /* KindaBeerPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindaBeerPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E510572046C63E000FE29E /* KindaBeerPongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindaBeerPongTests.swift; sourceTree = "<group>"; };
+		65E510592046C63E000FE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E5105E2046C63E000FE29E /* KindaBeerPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindaBeerPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E510622046C63E000FE29E /* KindaBeerPongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindaBeerPongUITests.swift; sourceTree = "<group>"; };
+		65E510642046C63E000FE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E510702046C895000FE29E /* VirtualPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
+		65E51072204735A3000FE29E /* ARCupSessionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCupSessionStatus.swift; sourceTree = "<group>"; };
+		65E5107C2048707D000FE29E /* cup.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cup.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E5103A2046C63E000FE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E510502046C63E000FE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E5105B2046C63E000FE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65676C5A20488E7500CD2981 /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				65676C5B20488E7500CD2981 /* normals-metal.png */,
+				65676C5C20488E7500CD2981 /* spec-wine.png */,
+				65676C5D20488E7500CD2981 /* normals-handle.png */,
+				65676C5E20488E7500CD2981 /* UVHandle.png */,
+				65676C5F20488E7500CD2981 /* spec-metal.png */,
+				65676C6020488E7500CD2981 /* BarrelUV.png */,
+				65676C6120488E7500CD2981 /* normals-wood.png */,
+				65676C6220488E7500CD2981 /* normals-wine.png */,
+				65676C6320488E7500CD2981 /* UVBase.png */,
+				65676C6420488E7500CD2981 /* normals-base.png */,
+				65676C6520488E7500CD2981 /* spec-handle.png */,
+				65676C6620488E7500CD2981 /* UVFabric.png */,
+				65676C6720488E7500CD2981 /* spec-base.png */,
+				65676C6820488E7500CD2981 /* normals-fabric.png */,
+			);
+			path = texture;
+			sourceTree = "<group>";
+		};
+		65E510342046C63E000FE29E = {
+			isa = PBXGroup;
+			children = (
+				65E5103F2046C63E000FE29E /* KindaBeerPong */,
+				65E510562046C63E000FE29E /* KindaBeerPongTests */,
+				65E510612046C63E000FE29E /* KindaBeerPongUITests */,
+				65E5103E2046C63E000FE29E /* Products */,
+				65676C5A20488E7500CD2981 /* texture */,
+			);
+			sourceTree = "<group>";
+		};
+		65E5103E2046C63E000FE29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E5103D2046C63E000FE29E /* KindaBeerPong.app */,
+				65E510532046C63E000FE29E /* KindaBeerPongTests.xctest */,
+				65E5105E2046C63E000FE29E /* KindaBeerPongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E5103F2046C63E000FE29E /* KindaBeerPong */ = {
+			isa = PBXGroup;
+			children = (
+				65E510402046C63E000FE29E /* AppDelegate.swift */,
+				65E510422046C63E000FE29E /* art.scnassets */,
+				65E510442046C63E000FE29E /* ViewController.swift */,
+				65E5107C2048707D000FE29E /* cup.scn */,
+				65676C772048909600CD2981 /* Barrel.scn */,
+				65E51072204735A3000FE29E /* ARCupSessionStatus.swift */,
+				65E510702046C895000FE29E /* VirtualPlane.swift */,
+				65E510462046C63E000FE29E /* Main.storyboard */,
+				65E510492046C63E000FE29E /* Assets.xcassets */,
+				65E5104B2046C63E000FE29E /* LaunchScreen.storyboard */,
+				65E5104E2046C63E000FE29E /* Info.plist */,
+			);
+			path = KindaBeerPong;
+			sourceTree = "<group>";
+		};
+		65E510562046C63E000FE29E /* KindaBeerPongTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E510572046C63E000FE29E /* KindaBeerPongTests.swift */,
+				65E510592046C63E000FE29E /* Info.plist */,
+			);
+			path = KindaBeerPongTests;
+			sourceTree = "<group>";
+		};
+		65E510612046C63E000FE29E /* KindaBeerPongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65E510622046C63E000FE29E /* KindaBeerPongUITests.swift */,
+				65E510642046C63E000FE29E /* Info.plist */,
+			);
+			path = KindaBeerPongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E5103C2046C63E000FE29E /* KindaBeerPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E510672046C63E000FE29E /* Build configuration list for PBXNativeTarget "KindaBeerPong" */;
+			buildPhases = (
+				65E510392046C63E000FE29E /* Sources */,
+				65E5103A2046C63E000FE29E /* Frameworks */,
+				65E5103B2046C63E000FE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindaBeerPong;
+			productName = KindaBeerPong;
+			productReference = 65E5103D2046C63E000FE29E /* KindaBeerPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65E510522046C63E000FE29E /* KindaBeerPongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E5106A2046C63F000FE29E /* Build configuration list for PBXNativeTarget "KindaBeerPongTests" */;
+			buildPhases = (
+				65E5104F2046C63E000FE29E /* Sources */,
+				65E510502046C63E000FE29E /* Frameworks */,
+				65E510512046C63E000FE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E510552046C63E000FE29E /* PBXTargetDependency */,
+			);
+			name = KindaBeerPongTests;
+			productName = KindaBeerPongTests;
+			productReference = 65E510532046C63E000FE29E /* KindaBeerPongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65E5105D2046C63E000FE29E /* KindaBeerPongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E5106D2046C63F000FE29E /* Build configuration list for PBXNativeTarget "KindaBeerPongUITests" */;
+			buildPhases = (
+				65E5105A2046C63E000FE29E /* Sources */,
+				65E5105B2046C63E000FE29E /* Frameworks */,
+				65E5105C2046C63E000FE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E510602046C63E000FE29E /* PBXTargetDependency */,
+			);
+			name = KindaBeerPongUITests;
+			productName = KindaBeerPongUITests;
+			productReference = 65E5105E2046C63E000FE29E /* KindaBeerPongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E510352046C63E000FE29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Piera Marchesini";
+				TargetAttributes = {
+					65E5103C2046C63E000FE29E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					65E510522046C63E000FE29E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65E5103C2046C63E000FE29E;
+					};
+					65E5105D2046C63E000FE29E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65E5103C2046C63E000FE29E;
+					};
+				};
+			};
+			buildConfigurationList = 65E510382046C63E000FE29E /* Build configuration list for PBXProject "KindaBeerPong" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E510342046C63E000FE29E;
+			productRefGroup = 65E5103E2046C63E000FE29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E5103C2046C63E000FE29E /* KindaBeerPong */,
+				65E510522046C63E000FE29E /* KindaBeerPongTests */,
+				65E5105D2046C63E000FE29E /* KindaBeerPongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E5103B2046C63E000FE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E510432046C63E000FE29E /* art.scnassets in Resources */,
+				65676C6D20488E7500CD2981 /* spec-metal.png in Resources */,
+				65676C6E20488E7500CD2981 /* BarrelUV.png in Resources */,
+				65E5104D2046C63E000FE29E /* LaunchScreen.storyboard in Resources */,
+				65676C6920488E7500CD2981 /* normals-metal.png in Resources */,
+				65676C7120488E7500CD2981 /* UVBase.png in Resources */,
+				65676C6B20488E7500CD2981 /* normals-handle.png in Resources */,
+				65676C7220488E7500CD2981 /* normals-base.png in Resources */,
+				65676C6F20488E7500CD2981 /* normals-wood.png in Resources */,
+				65676C7620488E7500CD2981 /* normals-fabric.png in Resources */,
+				65676C7520488E7500CD2981 /* spec-base.png in Resources */,
+				65676C7420488E7500CD2981 /* UVFabric.png in Resources */,
+				65676C782048914500CD2981 /* Barrel.scn in Resources */,
+				65676C6C20488E7500CD2981 /* UVHandle.png in Resources */,
+				65676C6A20488E7500CD2981 /* spec-wine.png in Resources */,
+				65676C7320488E7500CD2981 /* spec-handle.png in Resources */,
+				65676C7020488E7500CD2981 /* normals-wine.png in Resources */,
+				65E5107D2048721C000FE29E /* cup.scn in Resources */,
+				65E5104A2046C63E000FE29E /* Assets.xcassets in Resources */,
+				65E510482046C63E000FE29E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E510512046C63E000FE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E5105C2046C63E000FE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E510392046C63E000FE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E510452046C63E000FE29E /* ViewController.swift in Sources */,
+				65E510412046C63E000FE29E /* AppDelegate.swift in Sources */,
+				65E51073204735A3000FE29E /* ARCupSessionStatus.swift in Sources */,
+				65E510712046C895000FE29E /* VirtualPlane.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E5104F2046C63E000FE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E510582046C63E000FE29E /* KindaBeerPongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E5105A2046C63E000FE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E510632046C63E000FE29E /* KindaBeerPongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65E510552046C63E000FE29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E5103C2046C63E000FE29E /* KindaBeerPong */;
+			targetProxy = 65E510542046C63E000FE29E /* PBXContainerItemProxy */;
+		};
+		65E510602046C63E000FE29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E5103C2046C63E000FE29E /* KindaBeerPong */;
+			targetProxy = 65E5105F2046C63E000FE29E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65E510462046C63E000FE29E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E510472046C63E000FE29E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65E5104B2046C63E000FE29E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E5104C2046C63E000FE29E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65E510652046C63E000FE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65E510662046C63E000FE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E510682046C63E000FE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = KindaBeerPong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.KindaBeerPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65E510692046C63E000FE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = KindaBeerPong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.KindaBeerPong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65E5106B2046C63F000FE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = KindaBeerPongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.KindaBeerPongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindaBeerPong.app/KindaBeerPong";
+			};
+			name = Debug;
+		};
+		65E5106C2046C63F000FE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = KindaBeerPongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.KindaBeerPongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindaBeerPong.app/KindaBeerPong";
+			};
+			name = Release;
+		};
+		65E5106E2046C63F000FE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = KindaBeerPongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.KindaBeerPongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KindaBeerPong;
+			};
+			name = Debug;
+		};
+		65E5106F2046C63F000FE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = KindaBeerPongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.KindaBeerPongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KindaBeerPong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E510382046C63E000FE29E /* Build configuration list for PBXProject "KindaBeerPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E510652046C63E000FE29E /* Debug */,
+				65E510662046C63E000FE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E510672046C63E000FE29E /* Build configuration list for PBXNativeTarget "KindaBeerPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E510682046C63E000FE29E /* Debug */,
+				65E510692046C63E000FE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E5106A2046C63F000FE29E /* Build configuration list for PBXNativeTarget "KindaBeerPongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E5106B2046C63F000FE29E /* Debug */,
+				65E5106C2046C63F000FE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E5106D2046C63F000FE29E /* Build configuration list for PBXNativeTarget "KindaBeerPongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E5106E2046C63F000FE29E /* Debug */,
+				65E5106F2046C63F000FE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E510352046C63E000FE29E /* Project object */;
+}

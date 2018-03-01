@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gsz-62-54s">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wHE-LS-Sk7">
+            <objects>
+                <viewController id="gsz-62-54s" customClass="ViewController" customModule="KindaBeerPong" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Oxy-ee-kKf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZy-X4-ZO1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👀 Look for a plane to place your coffee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtI-Lv-sgy">
+                                <rect key="frame" x="10" y="40" width="355" height="40"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="sLV-wJ-EqS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RtI-Lv-sgy" firstAttribute="top" secondItem="H7y-vM-fbh" secondAttribute="top" constant="20" id="Dcr-Lq-M08"/>
+                            <constraint firstItem="RtI-Lv-sgy" firstAttribute="leading" secondItem="H7y-vM-fbh" secondAttribute="leading" constant="10" id="IaC-ZD-AQm"/>
+                            <constraint firstItem="ZZy-X4-ZO1" firstAttribute="leading" secondItem="H7y-vM-fbh" secondAttribute="leading" id="Vct-t5-YhF"/>
+                            <constraint firstItem="ZZy-X4-ZO1" firstAttribute="trailing" secondItem="H7y-vM-fbh" secondAttribute="trailing" id="Vgz-Sn-Yxg"/>
+                            <constraint firstItem="H7y-vM-fbh" firstAttribute="trailing" secondItem="RtI-Lv-sgy" secondAttribute="trailing" constant="10" id="d4h-WY-rye"/>
+                            <constraint firstItem="ZZy-X4-ZO1" firstAttribute="bottom" secondItem="H7y-vM-fbh" secondAttribute="bottom" id="dUf-2l-KD9"/>
+                            <constraint firstItem="ZZy-X4-ZO1" firstAttribute="top" secondItem="Oxy-ee-kKf" secondAttribute="top" id="rgy-DI-9yj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="H7y-vM-fbh"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="ZZy-X4-ZO1" id="Zcc-eM-L9n"/>
+                        <outlet property="statusLabel" destination="RtI-Lv-sgy" id="LJN-mb-hkD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ld8-5m-qO9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-724" y="173"/>
+        </scene>
+    </scenes>
+</document>
